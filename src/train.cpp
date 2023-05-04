@@ -47,11 +47,10 @@ int Train::getLength() {
             countOp++;
             cur = cur->next;
         }
-
     }
+    return 0;
 }
 
 int Train::getOpCount() {
     return countOp;
 }
-
